@@ -86,7 +86,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*#\s*(include|import)\b\s+</string>
+			<string>^\s*#\s*(include|import|pragma)\b\s+</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>

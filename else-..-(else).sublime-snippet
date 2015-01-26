@@ -1,0 +1,9 @@
+<snippet>
+	<description>If Condition</description>
+    <content><![CDATA[else
+{
+	${0:/* code */}
+}]]></content>
+    <tabTrigger>else</tabTrigger>
+    <scope>source.ox</scope>
+</snippet>

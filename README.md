@@ -4,9 +4,9 @@ Ox Plugin for Sublime Text 2
 by Andreas Hetland
 [www.andreashetland.com]
 
-*Latest revision:* 2015-01-26. 
+*Latest revision:* 2015-02-02. 
 
-**NOTE:** The package is provided "as is" without support (see License below). Contributions are encouraged :-)
+**NOTE:** The package is provided "as is" without support (see license below). Contributions are encouraged :-)
 
 The package currently provides the following features for working with Ox code in Sublime Text 2:
 * Syntax highlighting (based on OxEdit and OxMetrics).

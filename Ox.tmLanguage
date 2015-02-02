@@ -27,7 +27,7 @@
 		</dict>		
 		<dict>
 			<key>match</key>
-			<string>\b(break|case|continue|default|do|else|for|goto|if|_Pragma|return|switch|switch_single|while)\b</string>
+			<string>\b(break|case|continue|default|do|else|for|parallel for|goto|if|_Pragma|return|switch|switch_single|while)\b</string>
 			<key>name</key>
 			<string>keyword.control.ox</string>
 		</dict>	
@@ -45,10 +45,10 @@
 		</dict>		
 		<dict>
 			<key>match</key>
-			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL|.NaN)?\b</string>
+			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
 			<key>name</key>
 			<string>constant.numeric.ox</string>
-		</dict>
+		</dict>					
 		<dict>
 			<key>begin</key>
 			<string>"</string>

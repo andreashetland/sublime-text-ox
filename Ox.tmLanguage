@@ -27,7 +27,7 @@
 		</dict>		
 		<dict>
 			<key>match</key>
-			<string>\b(break|case|continue|default|do|else|for|parallel for|goto|if|_Pragma|return|switch|switch_single|while)\b</string>
+			<string>\b(break|case|continue|default|do|else|for|parallel for|foreach|goto|if|_Pragma|return|switch|delete|switch_single|while)\b</string>
 			<key>name</key>
 			<string>keyword.control.ox</string>
 		</dict>	

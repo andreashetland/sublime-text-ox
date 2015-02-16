@@ -1,4 +1,4 @@
 {
-	"cmd": ["oxl", "-rp2", "${file}"],
+	"cmd": ["oxl", "-rp1", "${file}"],
 	"selector": "source.ox"
 }

@@ -25,18 +25,18 @@
 			<key>include</key>
 			<string>#comments</string>
 		</dict>		
-		<dict>
+	        <dict>
 			<key>match</key>
-			<string>\b(break|case|continue|default|do|else|for|parallel for|foreach|goto|if|_Pragma|return|switch|delete|switch_single|while)\b</string>
+			<string>\b(break|case|continue|default|delete|do|else|for|new|parallel for|foreach|goto|if|_Pragma|return|switch|switch_single|while)\b</string>
 			<key>name</key>
 			<string>keyword.control.ox</string>
 		</dict>	
 		<dict>
 			<key>match</key>
-			<string>\b(decl|const|enum|static|extern|serial)\b</string>
+			<string>\b(array|char|class|const|decl|double|enum|extern|int|matrix|static|serial|string|struct)\b</string>
 			<key>name</key>
 			<string>storage.type.ox</string>
-		</dict>		
+		</dict>			
 		<dict>
 			<key>match</key>
 			<string>^\s*.\s*(.NaN|.Inf|TRUE|FALSE)\b</string>

@@ -39,7 +39,7 @@
 		</dict>		
 		<dict>
 			<key>match</key>
-			<string>\b(NULL|true|false|TRUE|FALSE)\b</string>
+			<string>^\s*.\s*(.NaN|.Inf|TRUE|FALSE)\b</string>
 			<key>name</key>
 			<string>constant.language.ox</string>
 		</dict>		

@@ -1,4 +1,5 @@
 {
 	"cmd": ["oxl", "-rp1", "${file}"],
+	"file_regex": "^([^ ]+)[ ]*[(]([^()]+)[)]",
 	"selector": "source.ox"
 }

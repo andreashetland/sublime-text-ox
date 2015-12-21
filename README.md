@@ -12,6 +12,7 @@ The package provides the following features for working with Ox code in Sublime 
 * A build system (defaulting to executing on a single CPU core via the "-rp1" flag).
 * Line and block comments.
 * Indentation rules.
+* Jump to error line by double clicking on the error message (or by pressing F4). Thanks to [malickf](https://github.com/malickf)!
 
 **NOTE 1:** The package is provided "as is" without support (see license).
 
